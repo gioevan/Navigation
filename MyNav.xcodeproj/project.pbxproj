@@ -21,6 +21,10 @@
 		2F9CB8E11626803A004EBE18 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F9CB8C21626803A004EBE18 /* Foundation.framework */; };
 		2F9CB8E91626803A004EBE18 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2F9CB8E71626803A004EBE18 /* InfoPlist.strings */; };
 		2F9CB8EC1626803A004EBE18 /* MyNavTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9CB8EB1626803A004EBE18 /* MyNavTests.m */; };
+		2F9CB8F61626806E004EBE18 /* MainStoryBoard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F9CB8F51626806E004EBE18 /* MainStoryBoard.storyboard */; };
+		2F9CB8F916268108004EBE18 /* MNViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9CB8F816268108004EBE18 /* MNViewController.m */; };
+		2F9CB90016268C11004EBE18 /* MNOtherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9CB8FF16268C11004EBE18 /* MNOtherViewController.m */; };
+		2F9CB90416268F95004EBE18 /* MNTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9CB90316268F95004EBE18 /* MNTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +57,13 @@
 		2F9CB8E81626803A004EBE18 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2F9CB8EA1626803A004EBE18 /* MyNavTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyNavTests.h; sourceTree = "<group>"; };
 		2F9CB8EB1626803A004EBE18 /* MyNavTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyNavTests.m; sourceTree = "<group>"; };
+		2F9CB8F51626806E004EBE18 /* MainStoryBoard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryBoard.storyboard; sourceTree = "<group>"; };
+		2F9CB8F716268108004EBE18 /* MNViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNViewController.h; sourceTree = "<group>"; };
+		2F9CB8F816268108004EBE18 /* MNViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNViewController.m; sourceTree = "<group>"; };
+		2F9CB8FE16268C11004EBE18 /* MNOtherViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNOtherViewController.h; sourceTree = "<group>"; };
+		2F9CB8FF16268C11004EBE18 /* MNOtherViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNOtherViewController.m; sourceTree = "<group>"; };
+		2F9CB90216268F95004EBE18 /* MNTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNTableViewController.h; sourceTree = "<group>"; };
+		2F9CB90316268F95004EBE18 /* MNTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +124,13 @@
 			isa = PBXGroup;
 			children = (
 				2F9CB8CF1626803A004EBE18 /* MNAppDelegate.h */,
+				2F9CB8F51626806E004EBE18 /* MainStoryBoard.storyboard */,
+				2F9CB8F716268108004EBE18 /* MNViewController.h */,
+				2F9CB8F816268108004EBE18 /* MNViewController.m */,
+				2F9CB90216268F95004EBE18 /* MNTableViewController.h */,
+				2F9CB90316268F95004EBE18 /* MNTableViewController.m */,
+				2F9CB8FE16268C11004EBE18 /* MNOtherViewController.h */,
+				2F9CB8FF16268C11004EBE18 /* MNOtherViewController.m */,
 				2F9CB8D01626803A004EBE18 /* MNAppDelegate.m */,
 				2F9CB8C71626803A004EBE18 /* Supporting Files */,
 			);
@@ -228,6 +246,7 @@
 				2F9CB8D31626803A004EBE18 /* Default.png in Resources */,
 				2F9CB8D51626803A004EBE18 /* Default@2x.png in Resources */,
 				2F9CB8D71626803A004EBE18 /* Default-568h@2x.png in Resources */,
+				2F9CB8F61626806E004EBE18 /* MainStoryBoard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +283,9 @@
 			files = (
 				2F9CB8CD1626803A004EBE18 /* main.m in Sources */,
 				2F9CB8D11626803A004EBE18 /* MNAppDelegate.m in Sources */,
+				2F9CB8F916268108004EBE18 /* MNViewController.m in Sources */,
+				2F9CB90016268C11004EBE18 /* MNOtherViewController.m in Sources */,
+				2F9CB90416268F95004EBE18 /* MNTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

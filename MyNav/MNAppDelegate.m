@@ -5,17 +5,18 @@
 //  Created by Angelito Evangelista on 10/11/12.
 //  Copyright (c) 2012 Angelito Evangelista. All rights reserved.
 //
-
+//
 #import "MNAppDelegate.h"
 
 @implementation MNAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    // Override point for customization after application launch.
-    self.window.backgroundColor = [UIColor whiteColor];
-    [self.window makeKeyAndVisible];
+//    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+//    // Override point for customization after application launch.
+//    self.window.backgroundColor = [UIColor whiteColor];
+//   [self.window makeKeyAndVisible];
+    
     return YES;
 }
 
