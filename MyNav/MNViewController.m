@@ -39,8 +39,8 @@
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
     if ([[segue identifier] isEqualToString:@"Button"]) {
         // do button 1
-        MNOtherViewController *vc = (MNOtherViewController*)[segue destinationViewController];
-        vc.displayText = @"Button 1 was pressed";
+        UITableViewController *vc = (UITableViewController*)[segue destinationViewController];
+//      vc.displayText = @"Button was pressed";
     }
    }
 

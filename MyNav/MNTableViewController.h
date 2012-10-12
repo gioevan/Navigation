@@ -10,4 +10,6 @@
 
 @interface MNTableViewController : UITableViewController
 
+@property (strong, nonatomic) UITableViewController *displayText;
+
 @end
